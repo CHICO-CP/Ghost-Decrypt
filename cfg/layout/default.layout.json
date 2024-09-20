@@ -1,1 +1,11 @@
-
+{
+    "comment":[
+        "This is the layout for the response content",
+        "header - text shown at the start of the message",
+        "footer - text shown at the end of the message",
+        "propertyIndicator - shown before property text"
+    ],
+    "propertyIndicator":"│[۞]",
+    "header":"\n┌───────────────\n│𝗦𝗣 - 𝗗𝗘𝗖𝗢𝗗𝗘 (.ePro)\n│𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 : https://bit.ly/jhkhw\n├───────────────\n",
+    "footer":"├───────────────\n│[۞] 𝗚𝗥𝗢𝗨𝗣 : @DecryptSP \n│[۞] 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : @TEAM_CHICO_CP\n└───────────────\n"
+}
