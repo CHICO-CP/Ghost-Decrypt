@@ -62,6 +62,7 @@ Sigue estos pasos para instalar y ejecutar el bot:
    ```bash
    git clone https://github.com/CHICO-CP/SP-SNIFF.git
    ```
+   **Entra en la carpeta del Bot**
    ```bash
    cd SP-SNIFF
    ```
@@ -86,7 +87,7 @@ Sigue estos pasos para instalar y ejecutar el bot:
    **Ejecución**
    Para ejecutar el bot, usa el siguiente comando:
 ```bash
-python SP-SNIFF.py 
+python main.py
 ```
 
 # Developer
