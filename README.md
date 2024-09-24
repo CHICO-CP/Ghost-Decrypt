@@ -60,12 +60,34 @@ Sigue estos pasos para instalar y ejecutar el bot:
 
 1. **Clona el repositorio**:
    ```bash
-   https://github.com/CHICO-CP/SP-SNIFF.git
+   git clone https://github.com/CHICO-CP/SP-SNIFF.git
+   ```
    ```bash
    cd SP-SNIFF
+   ```
+   **Instala las dependencias de Python:**
    ```bash
-   pkg install python
-  
+   pip install python-telegram-bot cryptodone
+   ```
+   **Instala Node.js (si aún no lo tienes):**
+   *En sistemas basados en Debian/Ubuntu:*
+   ```bash
+   sudo apt updat
+   sudo apt install nodejs npm
+   ```
+   **Instalar Node.js en Termux:**
+   ```bash
+   pkg install nodejs
+   ```
+   **Instala las dependencias de Node.js:**
+   ```bash
+   npm install crypto
+   ```
+   **Ejecución**
+   Para ejecutar el bot, usa el siguiente comando:
+```bash
+python SP-SNIFF.py 
+```
 
 # Developer
 <a href="https://github.com/CHICO-CP">
