@@ -67,4 +67,4 @@ Sigue estos pasos para instalar y ejecutar el bot:
     <img src="https://github.com/CHICO-CP.png" width="140" height="140" alt="CHICO-CP"/>
 </a>
 <br />
-**CHICO-CP**
+CHICO-CP
