@@ -60,7 +60,12 @@ Sigue estos pasos para instalar y ejecutar el bot:
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/CHICO-CP/Bot-sniff.git
+   https://github.com/CHICO-CP/SP-SNIFF.git
+   ```bash
+   cd SP-SNIFF
+   ```bash
+   pkg install python
+  
 
 # Developer
 <a href="https://github.com/CHICO-CP">
