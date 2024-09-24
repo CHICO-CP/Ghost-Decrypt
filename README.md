@@ -1,4 +1,4 @@
-# Telegram Bot para Decodificación de Archivos
+# SP - SNIFF
 
 Este repositorio contiene un bot de Telegram diseñado para decodificar archivos de distintas aplicaciones, incluyendo OpenTunnel, HAT TUNNEL PLUS y otros formatos. Utiliza varias bibliotecas y herramientas para ofrecer un servicio eficiente de desencriptación.
 
@@ -60,4 +60,4 @@ Sigue estos pasos para instalar y ejecutar el bot:
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/CHICO-CP/Bot-sniff.git
