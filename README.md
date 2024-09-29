@@ -1,4 +1,4 @@
-# SP - SNIFF
+# Ghost-Decrypt
 
 This repository contains a Telegram bot designed to decode files from different applications, including OpenTunnel, HAT TUNNEL PLUS, and other formats. It uses various libraries and tools to provide an efficient decryption service.
 
@@ -60,11 +60,11 @@ Follow these steps to install and run the bot:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/CHICO-CP/SP-SNIFF.git
+   git clone https://github.com/CHICO-CP/Ghost-Decrypt.git
    ```
    **Enter the Bot's folder**
    ```bash
-   cd SP-SNIFF
+   cd Ghost-Decrypt
    ```
    **Install Python dependencies:**
    ```bash
