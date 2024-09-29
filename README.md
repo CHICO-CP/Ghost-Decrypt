@@ -78,7 +78,7 @@ Follow these steps to install and run the bot:
    ```
    **Install Python dependencies:**
    ```bash
-   pip install python-telegram-bot cryptodone
+   pip install pyTelegramBotAPI cryptodone
    ```
    **Install Node.js (if you don't already have it):**
    *On Debian/Ubuntu-based systems:*
