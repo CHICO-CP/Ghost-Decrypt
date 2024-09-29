@@ -1,11 +1,11 @@
 # SP - SNIFF
 
-Este repositorio contiene un bot de Telegram diseñado para decodificar archivos de distintas aplicaciones, incluyendo OpenTunnel, HAT TUNNEL PLUS y otros formatos. Utiliza varias bibliotecas y herramientas para ofrecer un servicio eficiente de desencriptación.
+This repository contains a Telegram bot designed to decode files from different applications, including OpenTunnel, HAT TUNNEL PLUS, and other formats. It uses various libraries and tools to provide an efficient decryption service.
 
-## Funcionalidades
+## Features
 
-- **Decodificación de Archivos**: El bot es capaz de manejar múltiples extensiones de archivo, permitiendo a los usuarios decodificar fácilmente sus archivos.
-- **Soporte para Múltiples Aplicaciones**: Actualmente, el bot soporta las siguientes aplicaciones y sus correspondientes extensiones de archivo:
+- File Decoding: The bot is capable of handling multiple file extensions, allowing users to easily decode their files.
+- **Multi-Application Support**: Currently, the bot supports the following applications and their corresponding file extensions:
 
   - ACE TUNNEL (.act)
   - AIO TUNNEL (.xscks)
@@ -45,47 +45,47 @@ Este repositorio contiene un bot de Telegram diseñado para decodificar archivos
   - X TUNNEL PRO (.xtp)
   - ZIVPN (.ziv)
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **Python**: Utilizado para el desarrollo del bot.
-- **Cryptodone**: Biblioteca utilizada para el desencriptado de archivos.
-- **Node.js**: Para ejecutar scripts de JavaScript que manejan la lógica de procesamiento.
-- **Crypto**: Biblioteca de Node.js utilizada para la manipulación de criptografía.
-- **python-telegram-bot**: Librería para interactuar con la API de Telegram y manejar las funcionalidades del bot.
-- **API de Telegram**: Utilizada para obtener el token del bot y gestionar la comunicación.
+- **Python**: Used for bot development.
+- **Cryptodone**: Library used for file decryption.
+- **Node.js**: To run JavaScript scripts that handle processing logic.
+- **Crypto**: A Node.js library used for cryptography manipulation.
+- **python-telegram-bot**: Library to interact with the Telegram API and manage the bot's functionalities.
+- **Telegram API**: Used to obtain the bot's token and manage communication.
 
-## Instalación
+## Installation
 
-Sigue estos pasos para instalar y ejecutar el bot:
+Follow these steps to install and run the bot:
 
-1. **Clona el repositorio**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/CHICO-CP/SP-SNIFF.git
    ```
-   **Entra en la carpeta del Bot**
+   **Enter the Bot's folder**
    ```bash
    cd SP-SNIFF
    ```
-   **Instala las dependencias de Python:**
+   **Install Python dependencies:**
    ```bash
    pip install python-telegram-bot cryptodone
    ```
-   **Instala Node.js (si aún no lo tienes):**
-   *En sistemas basados en Debian/Ubuntu:*
+   **Install Node.js (if you don't already have it):**
+   *On Debian/Ubuntu-based systems:*
    ```bash
    sudo apt updat
    sudo apt install nodejs npm
    ```
-   **Instalar Node.js en Termux:**
+   **Install Node.js in Termux:**
    ```bash
    pkg install nodejs
    ```
-   **Instala las dependencias de Node.js:**
+   **Install Node.js dependencies:**
    ```bash
    npm install crypto
    ```
-   **Ejecución**
-   Para ejecutar el bot, usa el siguiente comando:
+   **Execution**
+   To run the bot, use the following command:
 ```bash
 python main.py
 ```
