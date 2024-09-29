@@ -54,6 +54,16 @@ This repository contains a Telegram bot designed to decode files from different 
 - **python-telegram-bot**: Library to interact with the Telegram API and manage the bot's functionalities.
 - **Telegram API**: Used to obtain the bot's token and manage communication.
 
+## Within config.json
+Inside the config.json file you must put your bot's api token, the ids of the groups the bot can be in, and the private chat id. 
+**Example:**
+```bash
+{
+    "TOKEN": "6551770885:AAHg6I63uyKKvltalDHDr7yR-YVbaA4xu_M",
+    "grupos_permitidos_ids": [-1002068726651, -1001685717676, -1001509659919, -1001810320865],
+    "chat_privado_especial_id": 5325631223
+}
+```
 ## Installation
 
 Follow these steps to install and run the bot:
@@ -87,7 +97,7 @@ Follow these steps to install and run the bot:
    **Execution**
    To run the bot, use the following command:
 ```bash
-python main.py
+python bot.py
 ```
 
 # Developer
